@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo de la página web</title>
+  
+  <!-- CSS de bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <!--Uso de awesome font -->
+  <script src="https://kit.fontawesome.com/69e534e431.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/estilos.css">
+
+
+
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="container">
+    <section class="row">
+
+      <div class="col-sm-2">
+        <img src="img/producto1.png" alt="Imagen del logo" class="img-fluid">
+      </div>
+
+      <div class="col-sm-10">
+        <h1 class="mt-4"> Nombre de la compañía </h1>
+      </div>
+
+    </section>
+
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
+      <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <span class="fa fa-home"></span> Inicio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="corporativa.html">
+                Corporativa
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">
+                Blog
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="noticias.html">
+                Noticias
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Fin Barra de navegación-->
+
+  </header>
+  <!-- Fin Encabezado -->
+
+  <!-- Contenido principal -->
+  <main class="container">
+    <div class="row">
+
+      <section class="col-12">
+        <img src="img/banner.png" alt="Banner del producto" class="img-fluid">
+      </section>
+
+      <section class="p-5">
+        <h2 class="text-primary">Título de la página</h2>
+        <h3 class="text-secondary">Subtítulo o lead</h3>
+        
+        <p class="text-muted lead border shadow p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, suscipit quae. Molestiae possimus iure nemo sed distinctio! Exercitationem alias laboriosam dolor, itaque at sunt voluptate non nulla dignissimos autem! Saepe.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, suscipit quae. Molestiae possimus iure nemo sed distinctio! Exercitationem alias laboriosam dolor, itaque at sunt voluptate non nulla dignissimos autem! Saepe.</p>
+        <h3>otro subtítulo</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, suscipit quae. Molestiae possimus iure nemo sed distinctio! Exercitationem alias laboriosam dolor, itaque at sunt voluptate non nulla dignissimos autem! Saepe.</p>
+        <blockquote>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui asperiores ullam repellat error quo voluptas cupiditate. Officiis possimus, itaque dolore aliquam fugiat tempore eum provident rem dolorem numquam odio facere.
+        </blockquote>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, suscipit quae. Molestiae possimus iure nemo sed distinctio! Exercitationem alias laboriosam dolor, itaque at sunt voluptate non nulla dignissimos autem! Saepe.</p>
+      </section>
+    </div>
+
+  </main>
+  <!--Fin  Contenido principal -->
+
+  <!-- ¨Pie de página -->
+  <footer class="container-fluid bg-dark text-white p-5">
+
+    <!-- Sectión principal del footer -->
+    <section class="row">
+      <div class="col-sm-3">
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+            Listado de artículos
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+          <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+          <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+          <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+            Listado de productos
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+          <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+          <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+          <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">A disabled link item</a>
+        </div>
+      </div>
+      <div class="col-sm-6">
+
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="ejemplo@servidor.com">
+            <div id="emailHelp" class="form-text">No compartimos tus datos.</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="ejemplonombrecliente" class="form-label">Nombre completo por fa</label>
+            <input type="email" class="form-control" id="ejemplonombrecliente" aria-describedby="nombreayuda" placeholder="En mayúsuclas">
+            <div id="nombreayuda" class="form-text">Digite sus datos en mayúsculas.</div>
+          </div>          
+          <button type="submit" class="btn btn-primary">Enviar
+          </button>
+        </form>
+
+      </div>
+    </section>
+    <!-- FIn Sectión principal del footer -->
+
+    <!-- Redes sociales -->
+    <section class="row text-center mt-3 mb-3">
+      <p>
+
+        <a href="https://facebook.com">
+          <span class="fa fa-facebook fa-3x text-white">
+          </span>
+        </a>
+        <a href="https://twitter.com">
+          <span class="fa fa-twitter fa-3x text-white">
+          </span>
+        </a>
+        <a href="https://instagram.com">
+          <span class="fa fa-instagram fa-3x text-white">
+          </span>
+        </a>
+
+      </p>
+    </section>
+    <!-- Fin Redes sociales -->
+
+    <!-- Copy -->
+    <section class="row text-center mt-3 mb-3 text-muted">
+      <p>
+        Copy de la página - copylef 
+      </p>
+    </section>
+    <!--Fin  Copy -->
+
+  </footer>
+  <!--Fin ¨Pie de página -->
+
+  <!-- Script de Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+</body>
+</html>
